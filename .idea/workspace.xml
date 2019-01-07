@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d21721-0741-4f9f-b28e-c72e56c8fbcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/geektime.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/else/else.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/src/linked_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/src/linked_list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/list/src/linked_list/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/list/InitList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/else/else.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/geekpractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/linked_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/linked_list/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/linked_list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/linked_list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/linked_list/微信图片_20190107110357.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/linked_list/微信图片_20190107110357.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/linked_list/微信图片_20190107110459.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/linked_list/微信图片_20190107110459.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/linked_list/微信图片_20190107115442.png" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/linked_list/微信图片_20190107115442.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/linked_list/微信图片_20190107153918.png" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/linked_list/微信图片_20190107153918.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/list/InitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/list/InitList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/list/list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/list/list.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/list/微信图片_20190107094941.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/list/微信图片_20190107094941.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/list/微信图片_20190107095111.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/list/微信图片_20190107095111.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/list/微信图片_20190107095400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/list/微信图片_20190107095400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/list/微信图片_20190107100947.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/list/微信图片_20190107100947.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/list/微信图片_20190107103320.png" beforeDir="false" afterPath="$PROJECT_DIR$/geekpractice/src/list/微信图片_20190107103320.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Solution.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +40,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="10" />
           <entry key="jpg" value="14" />
-          <entry key="md" value="4" />
+          <entry key="md" value="5" />
           <entry key="png" value="5" />
         </counts>
       </usages-collector>
@@ -42,19 +50,19 @@
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="19" />
-          <entry key="JAVA" value="8" />
-          <entry key="Markdown" value="4" />
+          <entry key="JAVA" value="10" />
+          <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="844" />
+          <entry key="java" value="846" />
           <entry key="md" value="620" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="844" />
+          <entry key="JAVA" value="846" />
           <entry key="Markdown" value="620" />
         </counts>
       </usages-collector>
@@ -62,16 +70,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="54">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#twoSum2#0;class#Solution#0" />
                 <element signature="method#twoSum1#0;class#Solution#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/geekpractice/src/linked_list/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geekpractice/src/linked_list/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geekpractice/src/list/InitList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -250,11 +286,6 @@
               <item name="geektime" type="b2602c69:ProjectViewProjectNode" />
               <item name="geektime" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="geektime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geektime" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -266,7 +297,7 @@
     <property name="SearchEverywhereHistoryKey" value="Node&#9;PSI&#9;JAVA://com.sun.org.apache.xalan.internal.xsltc.runtime.Node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546850067783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546850435378" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="E:/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -295,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -305,6 +336,20 @@
     <configuration name="InitList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.InitList" />
       <module name="geektime" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_list.Main" />
+      <module name="geekpractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -365,9 +410,11 @@
       <item itemvalue="Application.InitList" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InitList" />
@@ -385,18 +432,17 @@
       <option name="presentableId" value="Default" />
       <updated>1546825212254</updated>
       <workItem from="1546825216486" duration="8724000" />
-      <workItem from="1546844303742" duration="5281000" />
+      <workItem from="1546844303742" duration="5800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14005000" />
+    <option name="totallyTimeSpent" value="14524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14658849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14658849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,7 +451,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29877368" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29877368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,13 +561,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="54">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#twoSum2#0;class#Solution#0" />
             <element signature="method#twoSum1#0;class#Solution#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekpractice/src/linked_list/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekpractice/src/list/InitList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekpractice/src/linked_list/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
