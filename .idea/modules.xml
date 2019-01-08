@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/geekpractice/geekpractice.iml" filepath="$PROJECT_DIR$/geekpractice/geekpractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/geektime.iml" filepath="$PROJECT_DIR$/.idea/geektime.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/list/list.iml" filepath="$PROJECT_DIR$/list/list.iml" />
     </modules>
   </component>
 </project>
