@@ -1,6 +1,9 @@
 package sort;
 
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class BubbleSort {
 
@@ -10,6 +13,14 @@ public class BubbleSort {
         int[] r = bubbleSort2(a);
         for(int i = 0;i < r.length;i++){
             System.out.println(r[i]);
+        }
+
+        int[]ab = {100,2,3,6,90,23};
+        List list = Arrays.asList(ab);
+        Collections.sort(list);
+        List ss = (List) list.get(0);
+        for(Object i : ss){
+            System.out.println(i);
         }
     }
 
