@@ -1,5 +1,5 @@
 package bsearch;
-
+//二分查找适用于近似查找
 public class Bsearch {
     public static void main(String[] args) {
         int[] a = {1,2,3,6,19,20,21,56};
