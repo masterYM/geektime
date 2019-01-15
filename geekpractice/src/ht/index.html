@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BBS</title>
+    <meta charset="utf-8">
+	<style type="text/css">
+	
+.header{
+             
+             background: #01cd74;
+             height: 100px;
+        }
+        
+        <!--右上角格式-->
+	.header	ul{
+            margin-top: 10px;
+            list-style-type: none;
+            
+            padding: 0;
+		}
+	.header li{
+			display: inline-block;
+		}
+	.header a{
+			display: block;
+			color: #FFFFF;
+			text-decoration: none;
+			font-size: 14px;
+		}
+<!--	.hh{
+		    top: 30px;
+            height: 150px;
+            width: 1278px;
+		}
+		.left{
+			height: 676px;
+			width: 75%;
+			border: 1px solid #ccc;
+			float: left;
+		}
+		.left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFF;
+}
+-->
+.left li {
+    display: inline-block;
+    border-right:2px solid #bbb;
+}
+.left li a {
+    display: block;
+    color: #4f4f4f;
+    text-align: center;
+    padding: 20px 25px;<!--按钮的长宽--><!---->
+    text-decoration: none;<!--按钮没有下划线-->
+}
+.left li a:hover:not(.active) {
+    background-color: #ddd;
+}
+.left input{
+    width: 200px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    height: 25px;
+    border-radius: 8px;
+}
+.left button{
+    border: none;
+    width: 50px;
+    height: 35px;
+    line-height: 32px;
+    font-size: 16px;
+    background: #fd4c5d;
+    color: #4f4f4f;
+    border-radius: 0 3px 3px 0;
+    padding: 0;
+}
+<!--		.right_up{
+			height: 200px;
+			width: 24%;
+			border: 1px solid #ccc;
+			float: right;
+			background:#eaebec;
+		}
+		.right_down{
+			height: 250px;
+			width: 24%;
+			margin-top: 10px; 
+			border: 1px solid #ccc;
+			float: right;
+			background: #eaebec;
+		}
+		.right_down a{
+         padding: 8px 16px;
+         text-decoration: none;
+		}
+-->
+		.time{
+			font-size: 12px;
+		}
+		.title a{
+    text-decoration: none;
+		}
+		.tc a{
+    text-decoration: none;
+		}
+	.zebra th{
+		padding: 10px 0px;
+    background: #069;
+    color: white;
+	}
+	.footer	ul{
+            list-style-type: none;
+		}
+	.footer li{
+		padding: 2px 4px;
+			display: inline-block;
+		}
+	.footer a{
+			display: block;
+			color: #999;
+			text-decoration: none;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+        <ul>
+            <span style="font-size: 24px;">Welcome</span><br/>
+            <span style="font-size: 40px;">Announcements</span>
+        </ul>
+    </div>
+<!--    <div class="hh">
+    	<img src="images/BBS.jpg" height="149" width="200">
+    </div>
+    -->
+    <div class="left">
+    	<ul>
+    		<li><a href="publish.html">I want post</a></li>
+    		<input type="text" name="">
+    		<button type="submit"><span>Search</span></button>
+    	</ul>
+    <div class="block_clock">
+        <p>Time: <span id="time"></span></p>
+    </div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_list parent_forum ">
+    <colgroup>
+      <col>
+      <col width="60px">
+      <col width="120px">
+      <col width="60px">
+      <col width="120px">
+      <col width="60px">
+    </colgroup>
+    <tbody><tr class="title">
+      <th>Title</th>
+      <th class="tc">Poster</th>
+      <th class="tc">Replies</th>
+      <th class="tc">Operate</th>
+    </tr>
+  <tr>
+    <td class="title">
+      <a href="http://fmi.unibuc.ro/ro/anunt_alegeri_studenti_2018/" class="title_style_red title_style_bold" target="_blank" title="Alegeri reprezentanti studenti in Consiliu si Senat, sesiunea ianuarie 2019.">Alegeri reprezentanti studenti in Consiliu si Senat, sesiunea ianuarie 2019.</a>
+    </td>
+    <td class="tc">
+      <a href="//my.csdn.net/shijing266" rel="nofollow" target="_blank" title="HMJ">HMJ</a><br>
+    </td>
+    <td class="tc">17</td>
+    <td class="tc">
+      <a href="/topics/392371067/close" target="_blank">manage</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="title">
+      <a href="http://fmi.unibuc.ro/ro/pdf/2018/orar/orar_grupe_2018-2019_s1.pdf" target="_blank" title="Orarul grupelor">Orarul grupelor</a>
+    </td>
+    <td class="tc">
+      <a href="//my.csdn.net/HXDHXD1" rel="nofollow" target="_blank" title="HXDHXD1">HMJ</a><br>
+    <td class="tc">10</td>
+    <td class="tc">
+      <a href="/topics/392393002/close" target="_blank">manage</a>
+    </td>
+  </tr> 
+  <tr>
+    <td class="title">
+      <a href="http://fmi.unibuc.ro/ro/pdf/2018/orar/orar_grupe_2018-2019_s1.pdf" target="_blank" title="Orarul grupelor">Orarul grupelor</a>
+    </td>
+    <td class="tc">
+      <a href="//my.csdn.net/HXDHXD1" rel="nofollow" target="_blank" title="HXDHXD1">HMJ</a><br>
+    <td class="tc">10</td>
+    <td class="tc">
+      <a href="/topics/392393002/close" target="_blank">manage</a>
+    </td>
+  </tr> 
+  
+  </tbody></table>
+  
+<!--分页-->
+<nav aria-label="Page navigation" style="float: right;">
+  <ul class="pagination">
+    <li>
+      <a href="javasrcipt:;" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="javasrcipt:;">1</a></li>
+    <li><a href="javasrcipt:;">2</a></li>
+    <li><a href="javasrcipt:;">3</a></li>
+    <li><a href="javasrcipt:;">4</a></li>
+    <li><a href="javasrcipt:;">5</a></li>
+    <li>
+      <a href="javasrcipt:;" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+    </div>
+    </div>
+</body>
+</html>
