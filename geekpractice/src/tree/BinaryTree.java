@@ -18,7 +18,7 @@ public class BinaryTree {
         System.out.println(n.data);
     }
 
-    public void delete(int data){
+    public  void delete(int data){
         Node p = tree;//p 指向要删除的节点，初始化指向根节点
         Node pp = null;//pp记录的是p的父节点
         while ( p != null && p.data != data){
