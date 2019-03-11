@@ -1,6 +1,10 @@
 package stack;
+
+import java.util.HashMap;
+
 //leetcode:20,155,232,844,224,682,496
 public class ArrayStack {
+
     //数组
     private String[] items;
     //栈中元素个数

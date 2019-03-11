@@ -24,6 +24,12 @@ public class Test {
         });
         Thread thread2 = new Thread(()->{
           test.add10k();
+          try {
+              Thread.sleep(5000);
+          }catch (InterruptedException e){
+
+          }
+
         });
         thread1.start();
         thread2.start();
