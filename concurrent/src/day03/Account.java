@@ -24,6 +24,11 @@ public class Account {
     void transfer(Account target,int amt){
 
         synchronized (this){
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             synchronized (target){
                 if(this.balance > amt){
                     this.balance -= amt;
