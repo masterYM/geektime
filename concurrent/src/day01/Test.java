@@ -3,7 +3,7 @@ package day01;
 /**
  * 32位得机器上对long型变量进行加减操作存在并发隐患，因为long类型是64位得，对long 类型进行操作通常需要多条指令组合出来，无法保证原子性。
  *
- * 一条语句得执行可能涉及多条cup指令，一条cpu指令才是一个原子操作，不是一条语句，所以一句代码可能导致并发问题
+ * 一条语句的执行可能涉及多条cup指令，一条cpu指令才是一个原子操作，不是一条语句，所以一句代码可能导致并发问题
  */
 public class Test {
 
@@ -25,7 +25,7 @@ public class Test {
         Thread thread2 = new Thread(()->{
           test.add10k();
           try {
-              Thread.sleep(5000);
+              Thread.sleep(50);
           }catch (InterruptedException e){
 
           }

@@ -34,7 +34,6 @@ public class Account_1 {
             synchronized (this){
                 try {
                     Thread.sleep(500);//创造死锁条件
-
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
