@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2d21721-0741-4f9f-b28e-c72e56c8fbcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design/design.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/_1/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/_1/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/_1/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/_1/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/_2/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/_2/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/_2/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/_2/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/ThreadB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/day01/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/day01/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/day03/Account_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/day03/Account_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/day03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/day03/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/day01/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/day01/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design/p_c_patterns/condition_test/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design/p_c_patterns/condition_test/Run.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,43 +84,44 @@
     <session id="1566622871">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="28" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1263" />
+          <entry key="java" value="1971" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1263" />
+          <entry key="JAVA" value="1971" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/MyService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/MyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="200">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,28 +130,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/ThreadA.java">
+        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/ThreadB.java">
+        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
               </folding>
@@ -169,11 +155,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/Run.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -247,10 +248,15 @@
         <option value="$PROJECT_DIR$/design/src/p_c_patterns/_2/ThreadB.java" />
         <option value="$PROJECT_DIR$/design/src/p_c_patterns/_2/MyService.java" />
         <option value="$PROJECT_DIR$/design/src/p_c_patterns/_2/Run.java" />
+        <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/MyService.java" />
         <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/ThreadA.java" />
         <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/ThreadB.java" />
         <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/Run.java" />
-        <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_test/MyService.java" />
+        <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadA.java" />
+        <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadB.java" />
+        <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadC.java" />
+        <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/Run.java" />
+        <option value="$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/MyService.java" />
       </list>
     </option>
   </component>
@@ -388,6 +394,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -419,22 +427,28 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="p_c_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="condition_sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geektime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geektime" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="p_c_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="condition_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Node&#9;PSI&#9;JAVA://com.sun.org.apache.xalan.internal.xsltc.runtime.Node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554803299415" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554861650719" />
+    <property name="last_opened_file_path" value="D:/poseidon/settings.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="E:/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -443,21 +457,22 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\mayun\geektime\geekpractice\src\hash" />
-      <recent name="D:\mayun\geektime\list\src\list" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="p_c_patterns.condition_test" />
-      <recent name="p_c_patterns._2" />
-      <recent name="p_c_patterns._1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mayun\geektime\geekpractice\src\ht" />
       <recent name="D:\mayun\geektime\geekpractice\src\tree" />
       <recent name="D:\mayun\geektime\geekpractice\src\hash" />
       <recent name="D:\mayun\geektime\geekpractice\src" />
       <recent name="D:\mayun\geektime\list\src\linked_list" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="p_c_patterns.condition_sort" />
+      <recent name="p_c_patterns.condition_test" />
+      <recent name="p_c_patterns._2" />
+      <recent name="p_c_patterns._1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mayun\geektime\geekpractice\src\hash" />
+      <recent name="D:\mayun\geektime\list\src\list" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,7 +487,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run (2)">
+  <component name="RunManager" selected="Application.Run (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -521,13 +536,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p_c_patterns._1.Run" />
+    <configuration name="Run (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p_c_patterns.condition_sort.Run" />
       <module name="design" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p_c_patterns._1.*" />
+          <option name="PATTERN" value="p_c_patterns.condition_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -535,13 +550,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Test" />
-      <module name="concurrent" />
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p_c_patterns._1.Run" />
+      <module name="design" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="p_c_patterns._1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -579,19 +594,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Run" />
       <item itemvalue="Application.Run (1)" />
       <item itemvalue="Application.Run (2)" />
+      <item itemvalue="Application.Run (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Run (3)" />
         <item itemvalue="Application.Run (2)" />
         <item itemvalue="Application.Run (1)" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -633,18 +648,19 @@
       <workItem from="1552035634907" duration="1424000" />
       <workItem from="1552267072099" duration="11778000" />
       <workItem from="1554734185639" duration="1687000" />
-      <workItem from="1554779449833" duration="8572000" />
+      <workItem from="1554779449833" duration="11258000" />
+      <workItem from="1554859109642" duration="2793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153551000" />
+    <option name="totallyTimeSpent" value="159030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -653,7 +669,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17725752" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38684505" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40691194" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -724,19 +740,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/640.webp" />
-    <entry file="file://$PROJECT_DIR$/geekpractice/src/linked_list/微信图片_20190107115442.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekpractice/src/linked_list/微信图片_20190107110459.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekpractice/src/linked_list/微信图片_20190107110357.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekpractice/src/hash/微信图片_20190114170522.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekpractice/src/hash/微信图片_20190115112746.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -840,10 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,12 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,12 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,9 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,9 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,13 +968,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/ThreadA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="330">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1001,22 +980,10 @@
     <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/ThreadB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1024,7 +991,69 @@
     <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_test/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/src/p_c_patterns/condition_sort/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
